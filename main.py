@@ -6,7 +6,13 @@
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
+    a = 12
+    dummy = "Youtube"
+    print("Char " + dummy[6])
+    string = "Hi there"
+    print(string)
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    print(a)
 
 
 # Press the green button in the gutter to run the script.

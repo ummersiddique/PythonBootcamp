@@ -34,23 +34,38 @@ def number_for_sum():
     return 10
 
 
+def array_examples():
+    cars = ["Ford", "Volvo", "BMW"]
+    for car in cars:
+        print(f"Car : {car}")
+
+
 def operators():
     print(f'Sum is {5 + 5}')
     print(f'Difference {5 - 5}')
     print(f'Product : {5 * 5}')
     print(f'Quotient : {5 / 5}')
     print(f'Integer Quotient : {5 // 5}')
-    print(f'Remainder : { 5 % 2}')
+    print(f'Remainder : {5 % 2}')
     print(f'5 ** 5 : {5 ** 5}')
     print(f'Order : {5 + 5 * 5}')
     print(f'Order : {number_for_sum() + 10 - number()}')
     print("--------------------------------------------")
 
 
+def flow_examples(b):
+    if b:
+        print("Yes")
+    else:
+        print("No")
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    x = True
+    flow_examples(x)
+    array_examples()
     operators()
     print_hi('PyCharm')
-
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
